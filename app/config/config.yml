@@ -53,9 +53,17 @@ doctrine:
         # e.g. database_path: %kernel.root_dir%/data/data.db3
         # path:     %database_path%
 
-    orm:
-        auto_generate_proxy_classes: %kernel.debug%
+doctrine_phpcr:
+    # configure the PHPCR session
+    session:
+        backend: %phpcr_backend%
+        workspace: %phpcr_workspace%
+        username: %phpcr_user%
+        password: %phpcr_pass%
+    # enable the ODM layer
+    odm:
         auto_mapping: true
+        auto_generate_proxy_classes: %kernel.debug%
 
 # Swiftmailer Configuration
 swiftmailer:

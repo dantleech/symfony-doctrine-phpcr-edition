@@ -1,12 +1,8 @@
-Symfony Standard Edition
-========================
+Symfony PHPCR-ODM Edition
+=========================
 
-Welcome to the Symfony Standard Edition - a fully-functional Symfony2
-application that you can use as the skeleton for your new applications.
-
-This document contains information on how to download, install, and start
-using Symfony. For a more detailed explanation, see the [Installation][1]
-chapter of the Symfony Documentation.
+This distribution is based on the Symfony Standard Edition but replaces the 
+Doctrine ORM with the Doctrine PHPCR-ODM.
 
 1) Installing the Standard Edition
 ----------------------------------
